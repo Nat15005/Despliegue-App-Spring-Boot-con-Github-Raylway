@@ -1,5 +1,5 @@
 # Usar una imagen base de Java 17
-FROM eclipse-temurin:17-jdk-jammy
+FROM openjdk:17
 
 # Copiar el archivo JAR generado localmente
 COPY target/microservice-0.0.1-SNAPSHOT.jar .
